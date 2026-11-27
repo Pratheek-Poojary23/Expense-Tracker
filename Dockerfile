@@ -30,4 +30,4 @@ USER appuser
 EXPOSE 5000
 
 # Start Flask application using Gunicorn
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "2", "run:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "2", "main:app"]
