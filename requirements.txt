@@ -2,3 +2,4 @@ Flask                   #web application framework in Python
 Flask-SQLAlchemy        #Work with database tables using Python
 psycopg[binary]         #PostgreSQL database adapter for Python
 python-dotenv           #Read key-value pairs from a .env file and set them as environment variables
+gunicorn              # WSGI HTTP server for running Python web applications
