@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.git/
+.env
+instance/
+*.db
+
+# don't need to copy your local virtual environment, Git history, environment secrets or local SQLite database into the image.
